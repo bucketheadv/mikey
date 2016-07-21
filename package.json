@@ -1,0 +1,36 @@
+{
+  "name": "mikey",
+  "version": "0.0.1",
+  "description": "a blog generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sven199109/mikey.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "sven",
+  "license": "MIT",
+  "bin": {
+    "mikey": "./bin/mikey"
+  },
+  "bugs": {
+    "url": "https://github.com/sven199109/mikey/issues"
+  },
+  "homepage": "https://github.com/sven199109/mikey#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "fs-extra": "^0.30.0",
+    "markdown-it": "^7.0.0",
+    "moment": "^2.14.1",
+    "open": "0.0.5",
+    "rd": "0.0.2",
+    "serve-static": "^1.11.1",
+    "swig": "^1.4.2"
+  }
+}
