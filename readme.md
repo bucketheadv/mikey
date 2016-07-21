@@ -7,6 +7,7 @@ mikey is a blog generator built with `node.js`.
 ```
 git clone https://github.com/sven199109/mikey.git
 cd mikey
+npm link
 mikey preview
 ```
 
